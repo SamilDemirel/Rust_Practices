@@ -24,14 +24,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "deneme2"
-version = "0.1.0"
-dependencies = [
- "colored",
- "rand",
-]
-
-[[package]]
 name = "getrandom"
 version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -109,6 +101,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "99d9a13982dcf210057a8a78572b2217b667c3beacbf3a0d8b454f6f82837d38"
 dependencies = [
  "getrandom",
+]
+
+[[package]]
+name = "rust_practices"
+version = "0.1.0"
+dependencies = [
+ "colored",
+ "rand",
 ]
 
 [[package]]
