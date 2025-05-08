@@ -27,4 +27,8 @@ path = "data_types_in_rust/main.rs"
 name = "functions_in_rust"
 path = "functions_in_rust/main.rs"
 
+[[bin]]
+name = "control_flow_in_rust"
+path = "control_flow_in_rust/main.rs"
+
 

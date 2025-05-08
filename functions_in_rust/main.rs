@@ -1,3 +1,6 @@
+//This code contains functions for defining functions in Rust and calling defined functions.
+
+
 //Defining a function that takes no parameters and no return value
 fn function_no_params(){
     println!("Hello World");
