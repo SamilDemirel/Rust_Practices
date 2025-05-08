@@ -39,3 +39,7 @@ path = "ownership_in_rust/main.rs"
 name = "slices_in_rust"
 path = "slices_in_rust/main.rs"
 
+[[bin]]
+name = "struct_in_rust"
+path = "struct_in_rust/main.rs"
+
