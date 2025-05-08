@@ -14,3 +14,7 @@ path = "guessing_game/main.rs"
 [[bin]]
 name = "loops_in_rust"
 path = "loops_in_rust/main.rs"
+
+[[bin]]
+name = "variables_in_rust"
+path = "variables_in_rust/main.rs"
