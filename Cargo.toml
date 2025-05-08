@@ -18,3 +18,9 @@ path = "loops_in_rust/main.rs"
 [[bin]]
 name = "variables_in_rust"
 path = "variables_in_rust/main.rs"
+
+[[bin]]
+name = "data_types_in_rust"
+path = "data_types_in_rust/main.rs"
+
+
