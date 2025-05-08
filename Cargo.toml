@@ -10,3 +10,7 @@ colored = "3.0.0"
 [[bin]]
 name = "guessing_game"
 path = "guessing_game/main.rs"
+
+[[bin]]
+name = "loops_in_rust"
+path = "loops_in_rust/main.rs"
