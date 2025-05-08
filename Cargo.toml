@@ -31,4 +31,7 @@ path = "functions_in_rust/main.rs"
 name = "control_flow_in_rust"
 path = "control_flow_in_rust/main.rs"
 
+[[bin]]
+name = "ownership_in_rust"
+path = "ownership_in_rust/main.rs"
 
