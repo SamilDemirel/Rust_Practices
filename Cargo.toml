@@ -7,6 +7,9 @@ edition = "2024"
 rand = "0.9.1"
 colored = "3.0.0"
 
+[lib]
+path = "7_module_system_in_rust/lib.rs"
+
 [[bin]]
 name = "2_guessing_game"
 path = "2_guessing_game/main.rs"
