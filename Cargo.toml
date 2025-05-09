@@ -8,41 +8,45 @@ rand = "0.9.1"
 colored = "3.0.0"
 
 [[bin]]
-name = "guessing_game"
-path = "guessing_game/main.rs"
+name = "2_guessing_game"
+path = "2_guessing_game/main.rs"
 
 [[bin]]
-name = "loops_in_rust"
-path = "loops_in_rust/main.rs"
+name = "3_loops_in_rust"
+path = "3_loops_in_rust/main.rs"
 
 [[bin]]
-name = "variables_in_rust"
-path = "variables_in_rust/main.rs"
+name = "3_variables_in_rust"
+path = "3_variables_in_rust/main.rs"
 
 [[bin]]
-name = "data_types_in_rust"
-path = "data_types_in_rust/main.rs"
+name = "3_data_types_in_rust"
+path = "3_data_types_in_rust/main.rs"
 
 [[bin]]
-name = "functions_in_rust"
-path = "functions_in_rust/main.rs"
+name = "3_functions_in_rust"
+path = "3_functions_in_rust/main.rs"
 
 [[bin]]
-name = "control_flow_in_rust"
-path = "control_flow_in_rust/main.rs"
+name = "3_control_flow_in_rust"
+path = "3_control_flow_in_rust/main.rs"
 
 [[bin]]
-name = "ownership_in_rust"
-path = "ownership_in_rust/main.rs"
+name = "4_ownership_in_rust"
+path = "4_ownership_in_rust/main.rs"
 
 [[bin]]
-name = "slices_in_rust"
-path = "slices_in_rust/main.rs"
+name = "4_slices_in_rust"
+path = "4_slices_in_rust/main.rs"
 
 [[bin]]
-name = "struct_in_rust"
-path = "struct_in_rust/main.rs"
+name = "5_struct_in_rust"
+path = "5_struct_in_rust/main.rs"
 
 [[bin]]
-name = "enums_and_pattern_matching_in_rust"
-path = "enums_and_pattern_matching_in_rust/main.rs"
+name = "6_enums_and_pattern_matching_in_rust"
+path = "6_enums_and_pattern_matching_in_rust/main.rs"
+
+[[bin]]
+name = "7_module_system_in_rust"
+path = "7_module_system_in_rust/main.rs"
