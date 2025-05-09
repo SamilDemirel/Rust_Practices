@@ -43,3 +43,6 @@ path = "slices_in_rust/main.rs"
 name = "struct_in_rust"
 path = "struct_in_rust/main.rs"
 
+[[bin]]
+name = "enums_and_pattern_matching_in_rust"
+path = "enums_and_pattern_matching_in_rust/main.rs"
