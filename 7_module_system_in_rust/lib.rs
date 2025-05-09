@@ -1,6 +1,5 @@
-/* this file is not including a working code.
-its more like lecture notes about module system in rust. */
-
+/*this file is not including a working code.
+its more like lecture notes about module system in rust. 
 
 mod front_of_house{
     mod hosting{
@@ -34,9 +33,10 @@ pub fn eat_at_retaurant(){
 
 }
 //we are getting errors at hosting because, hosting module is private not public
-/*PRIVACY RULE!!!!!
+
+PRIVACY RULE!!!!!
 Functions, structs, constants, etc., defined inside a module (mod) 
-are not accessible from other modules (especially the parent module) by default. */
+are not accessible from other modules (especially the parent module) by default. 
 
 //if we want to access to add_to_wait_list function from root module,
 
@@ -111,7 +111,7 @@ mod front_of_car{
     }
 }
 
-/*we decided tocary all front_of_car module to a new file
+we decided tocary all front_of_car module to a new file
     1. create a new file as front_of_car.rs !! must be same name
     2. cut the code inside the mod front_of_car{}
     3. mod front_of_car{
@@ -141,4 +141,4 @@ mod front_of_car{
         -fron_of_car.rs
         -lib.rs
 
-*/    
+*/  

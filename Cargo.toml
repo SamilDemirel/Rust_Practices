@@ -53,3 +53,8 @@ path = "6_enums_and_pattern_matching_in_rust/main.rs"
 [[bin]]
 name = "7_module_system_in_rust"
 path = "7_module_system_in_rust/main.rs"
+
+[[bin]]
+name = "8_common_collections_in_rust"
+path = "8_common_collections_in_rust/main.rs"
+
