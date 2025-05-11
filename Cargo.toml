@@ -6,6 +6,7 @@ edition = "2024"
 [dependencies]
 rand = "0.9.1"
 colored = "3.0.0"
+unicode-segmentation = "1.12.0"
 
 [lib]
 path = "7_module_system_in_rust/lib.rs"
