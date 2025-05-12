@@ -59,3 +59,7 @@ path = "7_module_system_in_rust/main.rs"
 name = "8_common_collections_in_rust"
 path = "8_common_collections_in_rust/main.rs"
 
+[[bin]]
+name = "9_error_handling_in_rust"
+path = "9_error_handling_in_rust/main.rs"
+
