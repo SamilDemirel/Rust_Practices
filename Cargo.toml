@@ -63,3 +63,7 @@ path = "8_common_collections_in_rust/main.rs"
 name = "9_error_handling_in_rust"
 path = "9_error_handling_in_rust/main.rs"
 
+[[bin]]
+name = "10_generic_types_in_rust"
+path = "10_generic_types_in_rust/main.rs"
+
