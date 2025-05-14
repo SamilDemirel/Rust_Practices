@@ -71,3 +71,6 @@ path = "10_generic_types_in_rust/main.rs"
 name = "11_traits_in_rust"
 path = "11_traits_in_rust/main.rs"
 
+[[bin]]
+name = "12_life_times_in_rust"
+path = "12_life_times_in_rust/main.rs"
