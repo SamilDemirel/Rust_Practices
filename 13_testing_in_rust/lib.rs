@@ -87,9 +87,18 @@
             }else {
                 Err(String::from("2 +2 does not equal 4"))
             }
-
-
         }
+
+        //if a test takes tomuch time or resources, and if we dont want to run it for every time, we can ignore it
+        #[test]
+        #[ignore]
+        fn expensive_test(){
+            //code
+        }
+        //if we run just the ignored test via terminal
+            //cargo test -- --ignored
+        
+
 
 
 }
@@ -134,3 +143,30 @@ impl Guess{
         Guess{value}
     }
 }
+
+
+//Command Line Options for Test
+
+//as default, /cargo test runs the tests as different threads
+//if we want to run test as paralel (one by one) we can use this prompt (usefull when different test modifying same file)
+    //user& cargo test -- --test-threads = 1 (defining the threads number)
+
+//If a test success, Rust does not show the print statement. 
+//If we want to see the print statement of succseded test, we can use the following command line
+    //user& cargo test -- --show-output
+
+//if there are multiple tests and we only want to run one specific one
+    //user& cargo test test_name (the function name of the test)
+    // or user& cargo test the_initial_part_of_the_test_name 
+    // or user& cargo test my_tests(the test module name)::test_name
+
+// We have Two Main Test Catagories
+
+    //1.Unit Tests (small and focused tests on methods, modules or functions, private interfaes)
+    //2.Integration Tests (external libraries, public interfaces )
+
+    //Integration Test:
+        //we define a folder name tests for the integration tests
+        //Cargo knows by default that it will find the integration tests in the tests folder 
+                
+        //Continue the integration tests topic from the integration_test.rs file in the test folder.
