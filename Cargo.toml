@@ -86,3 +86,9 @@ path = "14_closures_in_rust/main.rs"
 [[bin]]
 name = "15_iterators_in_rust"
 path = "15_iterators_in_rust/main.rs"
+
+[[bin]]
+name = "16_publishing_a_rust_crate"
+path = "16_publishing_a_rust_crate/main.rs"
+
+
