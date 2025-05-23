@@ -91,4 +91,9 @@ path = "15_iterators_in_rust/main.rs"
 name = "16_publishing_a_rust_crate"
 path = "16_publishing_a_rust_crate/main.rs"
 
+[[bin]]
+name = "18_the_box_smart_pointer"
+path = "18_the_box_smart_pointer/main.rs"
+
+
 
