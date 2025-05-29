@@ -99,3 +99,8 @@ path = "18_the_box_smart_pointer/main.rs"
 [[bin]]
 name = "19_smart_pointers_in_rust"
 path = "19_smart_pointers_in_rust/main.rs"
+
+[[bin]]
+name = "20_concurrency_in_rust"
+path = "20_concurrency_in_rust/main.rs"
+
