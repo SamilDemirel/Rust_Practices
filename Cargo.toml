@@ -104,3 +104,7 @@ path = "19_smart_pointers_in_rust/main.rs"
 name = "20_concurrency_in_rust"
 path = "20_concurrency_in_rust/main.rs"
 
+[[bin]]
+name = "21_using_trait_objects_in_rust"
+path = "21_using_trait_objects_in_rust/main.rs"
+
